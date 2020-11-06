@@ -1,0 +1,76 @@
+
+/* TYPOGRAPHY */
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#title{
+    text-align: center;
+    font-size: 3em;
+}
+
+.player-pick{
+    position: relative;
+    top: 30%;
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+}
+
+#btn-start{
+    font-size: 2em;
+}
+
+/* LAYOUT  */
+
+.hidden{
+    display: none;
+}
+
+#gameboard{
+    display: grid;
+    grid-template-rows: 33.33333% 33.33333% 33.33333%;
+    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#instructions{
+    text-align: center;
+    color: red;
+}
+
+#below-game{
+    margin-top: 25px;
+    text-align: center;
+}
+
+#btn-start{
+    padding: 15px;
+    display: inline;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: .1 s;
+    -o-transition-duration: .1 s;
+    transition-duration: .1 s;
+}
+
+.board-square{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.board-square:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+
